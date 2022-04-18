@@ -43,7 +43,7 @@ const CheckOut = () => {
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicPhone">
           <Form.Label>Phone Number</Form.Label>
-          <Form.Control type="number" placeholder="Enter your Phon Number" onBlur={handlePhoneBlur} required />
+          <Form.Control type="tel" placeholder="Enter your Phone Number" onBlur={handlePhoneBlur} required />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicCheckbox">
           <Form.Check type="checkbox" label="Check me out" />
