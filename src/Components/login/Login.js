@@ -1,3 +1,4 @@
+import { sendPasswordResetEmail } from "firebase/auth";
 import React, { useState } from "react";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import {
@@ -35,11 +36,18 @@ const Login = () => {
     event.preventDefault();
     signInWithEmailAndPassword(email, password);
   };
+
+  const handlePassWordReset = () => {
+    sendPasswordResetEmail(auth, email)
+    .then(() => {
+      console.log('email sent');
+    })
+  }
   return (
     <div>
-      <div className="w-50 mx-auto mt-2">
+      <div className="w-50 mx-auto m-5">
         <h2 className="text-primary">Login</h2>
-        <Form onSubmit={handleUserSignIn}>
+        <Form onSubmit={handleUserSignIn} className="mt-5">
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
             <Form.Control
@@ -62,13 +70,18 @@ const Login = () => {
               required
             />
           </Form.Group>
+          
           <Form.Group className="mb-3" controlId="formBasicCheckbox">
             <Form.Check type="checkbox" label="Check me out" />
           </Form.Group>
-          <Button variant="primary" type="submit">
+          
+          
+          <Button className="px-3" variant="primary" type="submit">
             Login
           </Button>
         </Form>
+        <br />
+        <button className="text-muted border-0" onClick={handlePassWordReset}>Forget Password?</button>
         <br />
         <Container>
           <Row>
@@ -81,11 +94,19 @@ const Login = () => {
             </Col>
           </Row>
         </Container>
+        
         <br />
-        <button onClick={() => signInWithGoogle()}>Google Sign In</button>
-        <button onClick={() => navigate("/register")}>
-          Create new account
-        </button>
+        <div className="container">
+        <div className="row">
+          <div className="col">
+          <Button variant="success" onClick={() => signInWithGoogle()}>Google Sign In</Button>
+          </div>
+          <div className="col">
+          <Button variant="danger" onClick={() => navigate("/register")}>Create new account</Button>
+          </div>
+        </div>
+        </div>
+
       </div>
     </div>
   );

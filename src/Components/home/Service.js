@@ -12,9 +12,9 @@ const Service = ({ service }) => {
         <div class="card-body">
           <h5 class="card-title">{name}</h5>
           <p class="card-text">{description}</p>
-          <p class="card-text">{price}</p>
+          <p class="card-text"><span className="">{price}</span> BDT per person</p>
           <button class="btn btn-primary" onClick={() => navigate("/checkout")}>
-            Go somewhere{" "}
+            CHECKOUT{" "}
           </button>
           <p class="card-text">
             <small class="text-muted">Last updated 3 mins ago</small>

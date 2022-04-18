@@ -54,7 +54,7 @@ const Register = () => {
   return (
     <div>
       <div className="w-50 mx-auto mt-2">
-        <h2 className="text-primary">Please Register!!</h2>
+        <h2 className="text-primary m-5">Register Now!!</h2>
       <Form noValidate validated={validated} onSubmit={handleUserSignIn}>
       <Form.Group className="mb-3" controlId="formBasicName">
           <Form.Label>Name</Form.Label>

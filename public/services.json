@@ -1,11 +1,11 @@
 [
     {
-        "id": 1, "name": "Saint Maritn Package", "description": "St. Martin is generally known as “Narikel Zinzira” in Bengali, means 'Coconut Island' and this is the only coral reef island in Bangladesh. In this package I offer you full guid with bus booking, hotel booking, food, security", "price": "7000 BDT per person", "img": "https://i.ibb.co/D5rvFr8/Background-1.png"  
+        "id": 1, "name": "Saint Maritn Package", "description": "St. Martin is generally known as “Narikel Zinzira” in Bengali, means 'Coconut Island' and this is the only coral reef island in Bangladesh. In this package I offer you full guid with bus booking, hotel booking, food, security", "price": "7000 ", "img": "https://i.ibb.co/D5rvFr8/Background-1.png"  
     },
     {
-        "id": 2, "name": "Sajek Valley Package", "description": "Sajek valley is known for its natural environment and is surrounded by mountains, dense forest, and grassland hill tracks. In this package I offer you full guid with bus booking, hotel booking, food, security", "price": "5800 BDT per person", "img": "https://i.ibb.co/XLBVdY4/saajek.png"
+        "id": 2, "name": "Sajek Valley Package", "description": "Sajek valley is known for its natural environment and is surrounded by mountains, dense forest, and grassland hill tracks. In this package I offer you full guid with bus booking, hotel booking, food, security", "price": "5800 ", "img": "https://i.ibb.co/XLBVdY4/saajek.png"
     },
     {
-        "id": 3, "name": "Nafa-Khum Package", "description": "Nafa-khum is a waterfall in Bangladesh on the Remaikree River, a tributary of the Sangu River. It is among the largest waterfalls in the country by volume of water falling. In this package I offer you full guid with bus booking, hotel booking, food, security", "price": "5000 BDT per person", "img": "https://i.ibb.co/vDVrwVc/nafakhum.png"
+        "id": 3, "name": "Nafa-Khum Package", "description": "Nafa-khum is a waterfall in Bangladesh on the Remaikree River, a tributary of the Sangu River. It is among the largest waterfalls in the country by volume of water falling. In this package I offer you full guid with bus booking, hotel booking, food, security", "price": "5000 ", "img": "https://i.ibb.co/vDVrwVc/nafakhum.png"
     }
 ]
