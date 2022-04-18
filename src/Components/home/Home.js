@@ -7,6 +7,7 @@ import {
   } from "react-bootstrap";
   
 import React from "react";
+import Services from "../services/Services";
 
 const Home = () => {
   return (
@@ -50,6 +51,7 @@ const Home = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <Services></Services>
     </div>
   );
 };
