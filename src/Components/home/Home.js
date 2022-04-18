@@ -1,13 +1,8 @@
-import {
-    Button,
-    Carousel,
-    Col,
-    Container,
-    Row,
-  } from "react-bootstrap";
-  
+import { Button, Carousel, Col, Container, Row } from "react-bootstrap";
+
 import React from "react";
 import Services from "../services/Services";
+import Footer from "../footer/Footer";
 
 const Home = () => {
   return (
@@ -51,7 +46,27 @@ const Home = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <Container className="my-5 py-3">
+        <Row>
+          <Col className="text-center my-5 py-5">
+            <h1>Travel Guide</h1>
+            <p>
+              Start planning your next trip with a little help from my travel
+              guide.
+            </p>
+            <Button variant="primary">See More</Button>
+          </Col>
+          <Col>
+            <img
+              src="https://travel.discoverybangladesh.com/images/sylhet-sidebar.jpg"
+              alt=""
+              srcset=""
+            />
+          </Col>
+        </Row>
+      </Container>
       <Services></Services>
+      <Footer></Footer>
     </div>
   );
 };

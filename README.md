@@ -2,6 +2,26 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## YOU CAN FIND
+**Here  we can find travelguide also with authentication**
+
+### Tools used:
+- json file
+- Firebase
+- React-bootstrap
+- react firebase hooks
+- react- router
+- font-awesome
+
+### Feature:
+- You can find authentication for login
+- It helps you to choose ideal traveling area
+- This website provide you google auth
+- You will find an about of provider
+
+### wanna communicate:
+
+[if want communicate](https://www.facebook.com/akash.hossain.75457081/)
 ## Available Scripts
 
 In the project directory, you can run:
